@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@inboxsdk/core':
-        specifier: ^2.2.0
-        version: 2.2.0(kefir@3.8.8)
+        specifier: ^2.2.1
+        version: 2.2.1(kefir@3.8.8)
       '@plasmohq/messaging':
         specifier: ^0.6.2
         version: 0.6.2(react@18.2.0)
@@ -128,8 +128,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/runtime@7.26.0':
-    resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
+  '@babel/runtime@7.26.9':
+    resolution: {integrity: sha512-aA63XwOkcl4xxQa3HjPMqOP6LiK0ZDv3mUPYEFXkpHbaFjtGggE1A61FjFzJnB+p7/oy2gA8E+rcBNl/zC1tMg==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.25.9':
@@ -289,8 +289,8 @@ packages:
       '@vue/compiler-sfc':
         optional: true
 
-  '@inboxsdk/core@2.2.0':
-    resolution: {integrity: sha512-WAwNPCC/iSbyBfwUFXNoLHw5f9saCHNEw9VxNEpRf0jRDauwwCsNakMzQT/vcWeBQnhutNAF+sEM7o5kBSpXew==}
+  '@inboxsdk/core@2.2.1':
+    resolution: {integrity: sha512-nuLHADIGa2vvkDWIDgCuiycnbJi4oy0xxddUavmdoRY5UpeMZ272Vp+k9JpB8t4IbrX6MgAlPMBHDqsbzpJRgQ==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -2907,8 +2907,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  rxjs@7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+  rxjs@7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
 
   safe-buffer@5.2.1:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
@@ -3351,7 +3351,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.3
 
-  '@babel/runtime@7.26.0':
+  '@babel/runtime@7.26.9':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -3461,9 +3461,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@inboxsdk/core@2.2.0(kefir@3.8.8)':
+  '@inboxsdk/core@2.2.1(kefir@3.8.8)':
     dependencies:
-      '@babel/runtime': 7.26.0
+      '@babel/runtime': 7.26.9
       '@types/kefir': 3.8.11
       '@types/node': 22.10.5
       '@types/transducers.js': 0.3.4
@@ -5685,7 +5685,7 @@ snapshots:
       mute-stream: 1.0.0
       ora: 5.4.1
       run-async: 3.0.0
-      rxjs: 7.8.1
+      rxjs: 7.8.2
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 6.2.0
@@ -5760,7 +5760,7 @@ snapshots:
 
   json-schema-to-ts@2.9.2:
     dependencies:
-      '@babel/runtime': 7.26.0
+      '@babel/runtime': 7.26.9
       '@types/json-schema': 7.0.15
       ts-algebra: 1.2.2
 
@@ -5888,7 +5888,7 @@ snapshots:
 
   live-set@1.0.0:
     dependencies:
-      '@babel/runtime': 7.26.0
+      '@babel/runtime': 7.26.9
       '@types/transducers.js': 0.3.4
       '@types/zen-observable': 0.8.7
       asap: 2.0.6
@@ -6131,7 +6131,7 @@ snapshots:
 
   page-parser-tree@0.4.0:
     dependencies:
-      '@babel/runtime': 7.26.0
+      '@babel/runtime': 7.26.9
       live-set: 1.0.0
       matches-selector-ng: 1.1.0
       tag-tree: 1.0.0
@@ -6446,7 +6446,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  rxjs@7.8.1:
+  rxjs@7.8.2:
     dependencies:
       tslib: 2.8.1
 
@@ -6624,7 +6624,7 @@ snapshots:
 
   tag-tree@1.0.0:
     dependencies:
-      '@babel/runtime': 7.26.0
+      '@babel/runtime': 7.26.9
       live-set: 1.0.0
 
   tailwindcss@3.4.17:
@@ -6768,7 +6768,7 @@ snapshots:
 
   typed-emitter@2.1.0:
     optionalDependencies:
-      rxjs: 7.8.1
+      rxjs: 7.8.2
 
   typescript@5.2.2: {}
 
