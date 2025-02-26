@@ -1,0 +1,57 @@
+{
+  "name": "smart-address-for-gmail",
+  "displayName": "Smart Address for Gmail - Automatic CC/BCC Addition",
+  "version": "0.1.0",
+  "description": "Enhance Gmail with automatic CC/BCC management - Set rules by email address and streamline your email workflow",
+  "author": "xxuxa-k <xyz@tk-tech.xyz>",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@inboxsdk/core": "^2.2.0",
+    "@plasmohq/messaging": "^0.6.2",
+    "@plasmohq/storage": "^1.13.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.473.0",
+    "plasmo": "0.89.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.4.0",
+    "@types/chrome": "^0.0.290",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "prettier": "3.4.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.7.2"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://mail.google.com/*"
+    ],
+    "permissions": [
+      "scripting",
+      "storage"
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "@inboxsdk/core/pageWorld.js",
+          "@inboxsdk/core/background.js"
+        ],
+        "matches": [
+          "https://mail.google.com/*",
+          "https://inboxsdk.com/*"
+        ]
+      }
+    ]
+  },
+  "packageManager": "pnpm@9.15.3"
+}
