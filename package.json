@@ -15,7 +15,7 @@
     "@plasmohq/storage": "^1.15.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.473.0",
-    "plasmo": "0.89.4",
+    "plasmo": "0.90.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "zod": "^3.24.2"
