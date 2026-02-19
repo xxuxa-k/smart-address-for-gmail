@@ -1,0 +1,12 @@
+diff --git a/lib/index.js b/lib/index.js
+index b3481e6631c0ad9bfb7024a1e6e08810fc3f72c2..7023f648716ec642b6c29d371e5fca086efc1221 100644
+--- a/lib/index.js
++++ b/lib/index.js
+@@ -3655,6 +3655,7 @@ class NodePackageManager {
+         this.resolver = this._createResolver();
+     }
+     resolveInternal(name, from) {
++        if (name.startsWith("node:")) name = name.slice(5);
+         if (this.resolver == null) this.resolver = this._createResolver();
+         let res = this.resolver.resolve({
+             filename: name,
